@@ -151,7 +151,7 @@ function App() {
           <li className="text-white font-thin p-2">
             The password will only be generated when the checkboxes are marked.
           </li>
-          <li className="text-white font-thin pl-2">Validation starts from the 8th character.</li>
+          <li className="text-white font-thin pl-2">Validation begins when the password contains at least 8 characters range.</li>
         </ul>
 
         {isValid === null ? (
