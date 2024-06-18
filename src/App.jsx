@@ -105,7 +105,7 @@ function App() {
                 onChange={() => setSmallcharAllowed((prev) => !prev)}
               />
               <label htmlFor="small-characters" className="text-sm text-gray-700">
-                Small characters
+                Small letters 
               </label>
             </div>
             <div className="flex items-center">
@@ -116,7 +116,7 @@ function App() {
                 onChange={() => setCapitals((prev) => !prev)}
               />
               <label htmlFor="capital-characters" className="text-sm text-gray-700">
-                Capital characters
+                Capital letters 
               </label>
             </div>
             <div className="flex items-center">
